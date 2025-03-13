@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Monster Survivors - the ultimate survival action game where you battle hordes of mysterious creatures. Experience thrilling gameplay with stunning graphics on both PC and mobile devices.">
+    <meta name="keywords" content="Monster Survivors, online survival game, action game, monster battle, RPG game">
+    <link rel="canonical" href="https://monstersurvivors.com/">
+    
+    <title>Monster Survivors - Ultimate Survival Action Game</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS -->
+    <style>
+        .game-container {
+            position: relative;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            overflow: hidden;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .game-iframe {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            border: none;
+        }
+        
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 2.25rem;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+    <main class="container mx-auto px-4 py-8 max-w-4xl">
+        <header class="mb-12 text-center">
+            <h1 class="text-4xl font-bold mb-4 text-gray-900">Monster Survivors</h1>
+            <p class="text-xl text-gray-600 mb-8">Survive the Horde • Upgrade Your Hero • Conquer the Night</p>
+        </header>
+
+        <div class="game-container bg-white mb-12">
+            <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/indexog.html" 
+                    class="game-iframe"
+                    allow="fullscreen"
+                    title="Monster Survivors Game"></iframe>
+        </div>
+
+        <section class="space-y-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-600">About Monster Survivors</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Monster Survivors is an adrenaline-fueled survival game where players face endless waves of mysterious creatures. 
+                    Strategize your survival with unique character upgrades, powerful weapons, and magical abilities. 
+                    Experience stunning 3D graphics and smooth controls optimized for both desktop and mobile play.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm">
+                    <h2 class="text-2xl font-semibold mb-4 text-purple-600">Game Features</h2>
+                    <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                        <li>Dynamic day-night cycle system</li>
+                        <li>50+ unique monster types</li>
+                        <li>Character progression system</li>
+                        <li>Multi-platform cloud save</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm">
+                    <h2 class="text-2xl font-semibold mb-4 text-green-600">How to Play</h2>
+                    <ol class="list-decimal pl-6 text-gray-600 space-y-2">
+                        <li>Choose your survivor class</li>
+                        <li>Collect resources during daylight</li>
+                        <li>Defend your base at night</li>
+                        <li>Upgrade abilities between waves</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white mt-12 py-6 border-t border-gray-100">
+        <div class="container mx-auto px-4 max-w-4xl text-center text-sm text-gray-500">
+            <p>© 2023 MonsterSurvivors.com - All rights reserved. Play our thrilling survival action game today!</p>
+        </div>
+    </footer>
+</body>
+</html>
